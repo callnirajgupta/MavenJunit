@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="101.240333">
+<testcase classname="search my friends" name="search my friends" time="52.981684">
+<system-out><![CDATA[Given Login to facebook application.........................................passed
+When search friend in homr page.............................................passed
+Then verify that friend is search successfully..............................passed
+And Logout from the facebook Application....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="my feature" name="my scenario" time="48.258649">
+<system-out><![CDATA[Given Login to facebook application.........................................passed
+When click on the home button...............................................passed
+Then verify that home page is displayed.....................................passed
+And Logout from the facebook Application....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

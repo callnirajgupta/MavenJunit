@@ -1,0 +1,172 @@
+[
+  {
+    "id": "search-my-friends",
+    "tags": [
+      {
+        "name": "@search",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "search my friends",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 575423663,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Global.AfterTest()"
+            }
+          }
+        ],
+        "id": "search-my-friends;search-my-friends",
+        "description": "",
+        "name": "search my friends",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 39573326885,
+              "status": "passed"
+            },
+            "name": "Login to facebook application",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "location": "Global.Login_to_face_book_application()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3094286576,
+              "status": "passed"
+            },
+            "name": "search friend in homr page",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "location": "SearchFriends.search_friend_in_homr_page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 567349732,
+              "status": "passed"
+            },
+            "name": "verify that friend is search successfully",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "location": "SearchFriends.verify_that_friend_is_search_successfully()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9171297284,
+              "status": "passed"
+            },
+            "name": "Logout from the facebook Application",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "Global.Logout_from_the_facebook_Application()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "SearchFriends.feature"
+  },
+  {
+    "id": "my-feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "line": 2
+      }
+    ],
+    "description": "",
+    "name": "my feature",
+    "keyword": "Feature",
+    "line": 3,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 362002358,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Global.AfterTest()"
+            }
+          }
+        ],
+        "id": "my-feature;my-scenario",
+        "description": "",
+        "name": "my scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 38750299651,
+              "status": "passed"
+            },
+            "name": "Login to facebook application",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "Global.Login_to_face_book_application()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5427909349,
+              "status": "passed"
+            },
+            "name": "click on the home button",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "logintofacebook.click_on_the_home_button()"
+            }
+          },
+          {
+            "result": {
+              "duration": 243825,
+              "status": "passed"
+            },
+            "name": "verify that home page is displayed",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "logintofacebook.verify_that_home_page_is_displayed()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3718193325,
+              "status": "passed"
+            },
+            "name": "Logout from the facebook Application",
+            "keyword": "And ",
+            "line": 8,
+            "match": {
+              "location": "Global.Logout_from_the_facebook_Application()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "logintofacebook.feature"
+  }
+]
